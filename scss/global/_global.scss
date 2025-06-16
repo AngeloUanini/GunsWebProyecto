@@ -1,0 +1,23 @@
+* {
+  font-family: "EB Garamond", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+  /* background-color: #111; */
+}
+
+nav {
+  width: 100%;
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  padding: 1rem 0;
+  text-align: center;
+}
