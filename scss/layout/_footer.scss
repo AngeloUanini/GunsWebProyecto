@@ -1,10 +1,6 @@
 /* Footer */
-.pieDePagina {
-  background-color: rgb(51, 51, 51);
-  color: rgb(255, 255, 255);
-  text-align: center;
-  font-style: italic;
-  padding: 20px;
-  font-size: 14px;
-  margin-top: 50px;
+.colorFooter {
+  color: $color-naranja;
+  background-color: $fondo-negro;
+
 }
