@@ -35,9 +35,8 @@
 }
 
 .menu a {
+   @extend %texto-naranja;
   text-decoration: none;
-  color: $color-naranja;
-  font-weight: bold;
   font-size: 20px;
 }
 

@@ -23,19 +23,19 @@
 }
 
 .textoCentrado {
-  text-align: center;
+  @extend %texto-centrado;
 }
 
 .contenedor {
-  text-align: center;
+  @extend %texto-centrado;
 }
 
 .imagenBanda {
-  width: 100%;
+  @extend %imagen-ajustada;
 }
 
 .tamañoTexto {
-  font-size: 1.2rem;
+  @include texto(1.2rem, #000);
 }
 
 .cursiva {
@@ -43,23 +43,23 @@
 }
 
 .tamañoPie {
-  font-size: 1rem;
+  @include texto(1rem, #444);
 }
 
-.tamañoImagen {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 8px;
-}
+  .tamañoImagen {
+    @extend %imagen-ajustada;
+    height: 250px;
+  }
 
-.imagenDisco {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 1rem auto;
-}
+ .imagenDisco {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+
+
 
 .sinPuntos {
   list-style: none;
@@ -68,9 +68,8 @@
 }
 
 .link {
+  @extend %texto-naranja;
   text-decoration: none;
-  color: $color-naranja;
-  font-weight: bold;
 }
 
 .link:hover {

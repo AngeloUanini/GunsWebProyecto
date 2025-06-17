@@ -1,0 +1,14 @@
+%texto-centrado{
+    text-align: center;
+}
+
+%imagen-ajustada {
+   width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+%texto-naranja {
+  color: $color-naranja;
+  font-weight: bold;
+}
