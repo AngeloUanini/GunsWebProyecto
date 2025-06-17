@@ -83,6 +83,10 @@ nav {
   text-decoration: underline;
 }
 
+.pagina-inicio nav {
+  background-color: transparent;
+}
+
 .integrantesFlexContainer {
   display: flex;
   justify-content: center;
