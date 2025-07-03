@@ -8,11 +8,17 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html, body {
   height: 100%;
   font-size: 16px;
-  /* background-color: #111; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; // Esto empuja el footer hacia abajo si el contenido es corto
 }
 
 nav {
